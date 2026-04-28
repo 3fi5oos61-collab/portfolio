@@ -21,10 +21,18 @@ h4 {
     color: #5A3226;
 }
 
-/* body{
-        background-image: url(background2.jpg);
-        height:2307vw;
-    } */
+a {
+    text-decoration: none;
+    /* 下線を消す */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#shop-location {
+    scroll-margin-top: 100px; /* ヘッダーの高さ分くらいを数字で入れる */
+}
 
 @media(max-width:760px) {
     .logo {
@@ -39,12 +47,6 @@ h4 {
         max-width: 50px;
         max-height: 50px;
     }
-
-    /* .map {
-        background: red;
-        max-width: 50px;
-        max-height: 50px;
-    } */
 
     .header__nav {
         display: flex;
@@ -210,10 +212,10 @@ h4 {
     }
 
     .product__item:nth-child(4) .item__text-group .text {
-    margin-top: auto;
-}
+        margin-top: auto;
+    }
 
-        .background {
+    .background {
         background-image: url(background2.jpg);
         background-position: center;
         background-size: auto 100%;
@@ -242,7 +244,6 @@ h4 {
     .tel {
         display: flex;
         align-items: center;
-
     }
 
     .header__nav {
@@ -413,11 +414,11 @@ h4 {
         height: 110.77px;
     }
 
-.product__item:nth-child(4) .item__text-group .text {
-    margin-top: auto;
-}
+    .product__item:nth-child(4) .item__text-group .text {
+        margin-top: auto;
+    }
 
-        .background {
+    .background {
         background-image: url(background3.jpg);
         background-position: center -100px;
         background-size: 1803.91px 2878px;
