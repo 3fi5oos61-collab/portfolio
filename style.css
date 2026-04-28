@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+p,
+.title,
+.text,
+h4 {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #5A3226;
+}
+
+/* body{
+        background-image: url(background2.jpg);
+        height:2307vw;
+    } */
+
+@media(max-width:760px) {
+    .logo {
+        /* background: red; */
+        max-width: 157px;
+        max-height: 55px;
+    }
+
+    .tel,
+    .map {
+        /* background: red; */
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    /* .map {
+        background: red;
+        max-width: 50px;
+        max-height: 50px;
+    } */
+
+    .header__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
+
+    header .container {
+        /* background: pink; */
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 32px 16px 28px;
+    }
+
+    .mv {
+        background-image: url(sp-mv.jpg);
+        height: 227vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .concept_svg {
+        /* background: indianred; */
+        max-width: 48.64px;
+        max-height: 181.69px;
+    }
+
+    .concept p {
+        display: block;
+        /* background:darkgrey; */
+        font-size: 16px;
+        writing-mode: vertical-rl;
+        letter-spacing: 5px;
+    }
+
+    .concept {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 160px 0;
+        gap: 24px;
+    }
+
+    .item__img {
+        width: 306px;
+        height: 306px;
+        margin: auto;
+        padding: 0 0 24px 0;
+    }
+
+    .item__text-group .title {
+        /* background: darkseagreen; */
+        writing-mode: vertical-rl;
+        letter-spacing: 4px;
+        font-size: 20px;
+        padding: 0 16px 8px;
+        font-weight: 500;
+        border-left: 2px solid #5A3226;
+    }
+
+    .item__text-group .text {
+        /* background: darksalmon; */
+        writing-mode: vertical-rl;
+        letter-spacing: 3px;
+        font-size: 14px;
+        text-orientation: upright;
+        /* margin-top: auto; */
+    }
+
+    .item__text-group {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .product__item-group {
+        display: flex;
+        flex-direction: column;
+        gap: 114px;
+        padding: 0 0 72px 0;
+        border-bottom: 2px solid #5A3226;
+    }
+
+    .product .container {
+        padding: 0 32px 120px;
+    }
+
+    .shop_map {
+        height: 345px;
+    }
+
+    h4 {
+        font-size: 16px;
+        padding: 0 0 2px;
+    }
+
+    .shop__item p {
+        font-size: 12px;
+    }
+
+    .shop__item {
+        border-bottom: 1px solid #5A3226;
+        padding: 0 0 4px;
+    }
+
+    .shop__info {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 0 32px;
+    }
+
+    .shop .container {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .shop {
+        padding: 0 0 56px;
+    }
+
+    .instagram {
+        background: #331C16;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        padding: 8px 0;
+    }
+
+    .instagram img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .instagram p {
+        font-size: 10px;
+        color: #fff;
+    }
+
+    .footer-logo {
+        background-image: url(sp-footer.jpg);
+        /* width: 100%; */
+        height: 59vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo img {
+        width: 186px;
+        height: 58.59px;
+    }
+
+    .tel img:nth-of-type(2) {
+        display: none;
+    }
+
+    .product__item:nth-child(4) .item__text-group .text {
+    margin-top: auto;
+}
+
+        .background {
+        background-image: url(background2.jpg);
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+@media(min-width:761px) {
+    .logo {
+        /* background: red; */
+        max-width: 157px;
+        max-height: 55px;
+    }
+
+    .tel img:nth-of-type(1),
+    .map {
+        /* background: red; */
+        width: 50px;
+        height: 50px;
+    }
+
+    .tel img:nth-of-type(2) {
+        width: 162px;
+        height: 44px;
+    }
+
+    .tel {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .header__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+    }
+
+    header .container {
+        /* background: pink; */
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 32px 16px 28px;
+    }
+
+    .mv {
+        background-image: url(mv.jpg);
+        height: 56vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .concept_svg {
+        /* background: indianred; */
+        max-width: 48.64px;
+        max-height: 181.69px;
+    }
+
+    .concept p {
+        display: block;
+        /* background:darkgrey; */
+        font-size: 16px;
+        writing-mode: vertical-rl;
+        letter-spacing: 5px;
+    }
+
+    .concept {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 120px 0;
+        gap: 24px;
+    }
+
+    .item__img {
+        width: 306px;
+        height: 306px;
+        /* margin: auto; */
+        /* padding: 0 0 24px 0; */
+    }
+
+    .item__text-group .title {
+        /* background: darkseagreen; */
+        writing-mode: vertical-rl;
+        letter-spacing: 4px;
+        font-size: 20px;
+        padding: 0 16px 8px;
+        font-weight: 600;
+        border-left: 2px solid #5A3226;
+    }
+
+    .item__text-group .text {
+        /* background: darksalmon; */
+        writing-mode: vertical-rl;
+        letter-spacing: 3px;
+        font-size: 14px;
+        text-orientation: upright;
+        /* margin-top: auto; */
+    }
+
+    .item__text-group {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .product__item {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product__item-group {
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+        padding: 0 0 72px 0;
+        border-bottom: 2px solid #5A3226;
+    }
+
+    .product .container {
+        padding: 0 32px 176px;
+    }
+
+    .shop_map {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    h4 {
+        font-size: 16px;
+        padding: 0 0 2px;
+    }
+
+    .shop__item p {
+        font-size: 12px;
+    }
+
+    .shop__item {
+        border-bottom: 1px solid #5A3226;
+        padding: 0 0 4px;
+    }
+
+    .shop__info {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .shop .container {
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+        padding: 0 32px;
+    }
+
+    .shop {
+        padding: 0px 0 56px;
+    }
+
+    .instagram {
+        background: #331C16;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        padding: 8px 0;
+    }
+
+    .instagram img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .instagram p {
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .footer-logo {
+        background-image: url(footer.jpg);
+        /* width: 100%; */
+        height: 41vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-logo img {
+        width: 349.75px;
+        height: 110.77px;
+    }
+
+.product__item:nth-child(4) .item__text-group .text {
+    margin-top: auto;
+}
+
+        .background {
+        background-image: url(background3.jpg);
+        background-position: center -100px;
+        background-size: 1803.91px 2878px;
+        background-repeat: no-repeat;
+    }
+}
