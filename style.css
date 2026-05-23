@@ -71,16 +71,17 @@ html {
 
     .concept_svg {
         /* background: indianred; */
-        max-width: 48.64px;
-        max-height: 181.69px;
+        max-width: 54.44px;
+        max-height: 203.36px;
     }
 
     .concept p {
-        display: block;
+        /* display: block; */
         /* background:darkgrey; */
-        font-size: 16px;
+        font-size: 22px;
+          font-weight: 800;
         writing-mode: vertical-rl;
-        letter-spacing: 5px;
+        letter-spacing: 13px;
     }
 
     .concept {
@@ -88,8 +89,8 @@ html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 160px 0;
-        gap: 24px;
+        padding: 320px 0 360px;
+        gap: 35px;
     }
 
     .item__img {
@@ -102,18 +103,18 @@ html {
     .item__text-group .title {
         /* background: darkseagreen; */
         writing-mode: vertical-rl;
-        letter-spacing: 4px;
-        font-size: 20px;
+        letter-spacing: 6px;
+        font-size: 22px;
         padding: 0 16px 8px;
-        font-weight: 500;
+        font-weight: 800;
         border-left: 2px solid #5A3226;
     }
 
     .item__text-group .text {
         /* background: darksalmon; */
         writing-mode: vertical-rl;
-        letter-spacing: 3px;
-        font-size: 14px;
+        letter-spacing: 6px;
+        font-size: 15px;
         text-orientation: upright;
         /* margin-top: auto; */
     }
@@ -128,13 +129,13 @@ html {
     .product__item-group {
         display: flex;
         flex-direction: column;
-        gap: 114px;
+        gap: 368px;
         padding: 0 0 72px 0;
         border-bottom: 2px solid #5A3226;
     }
 
     .product .container {
-        padding: 0 32px 120px;
+        padding: 0 32px 240px;
     }
 
     .shop_map {
@@ -269,16 +270,17 @@ html {
 
     .concept_svg {
         /* background: indianred; */
-        max-width: 48.64px;
-        max-height: 181.69px;
+        max-width: 58.25px;
+        max-height: 217.58px;
     }
 
     .concept p {
         display: block;
         /* background:darkgrey; */
-        font-size: 16px;
+        font-size: 24px;
+        font-weight: 800;
         writing-mode: vertical-rl;
-        letter-spacing: 5px;
+        letter-spacing: 11px;
     }
 
     .concept {
@@ -286,13 +288,13 @@ html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 120px 0;
-        gap: 24px;
+        padding: 320px 0 360px;
+        gap: 37px;
     }
 
     .item__img {
-        width: 306px;
-        height: 306px;
+        width: 409.93px;
+        height: 409.93px;
         /* margin: auto; */
         /* padding: 0 0 24px 0; */
     }
@@ -300,27 +302,27 @@ html {
     .item__text-group .title {
         /* background: darkseagreen; */
         writing-mode: vertical-rl;
-        letter-spacing: 4px;
-        font-size: 20px;
-        padding: 0 16px 8px;
-        font-weight: 600;
-        border-left: 2px solid #5A3226;
+        letter-spacing: 8px;
+        font-size: 30px;
+        padding: 0 20px 8px 16px;
+        font-weight: 800;
+        border-left: 3px solid #5A3226;
     }
 
     .item__text-group .text {
         /* background: darksalmon; */
         writing-mode: vertical-rl;
-        letter-spacing: 3px;
-        font-size: 14px;
+        letter-spacing: 8px;
+        font-size: 20px;
         text-orientation: upright;
         /* margin-top: auto; */
-    }
+    } 
 
     .item__text-group {
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
-        gap: 8px;
+        gap: 12px;
     }
 
     .product__item {
@@ -333,13 +335,13 @@ html {
     .product__item-group {
         display: flex;
         flex-direction: column;
-        gap: 200px;
-        padding: 0 0 72px 0;
+        gap: 536px;
+        padding: 0 0 96px 0;
         border-bottom: 2px solid #5A3226;
     }
 
     .product .container {
-        padding: 0 32px 176px;
+        padding: 0 32px 320px;
     }
 
     .shop_map {
@@ -421,7 +423,7 @@ html {
     .background {
         background-image: url(background3.jpg);
         background-position: center -100px;
-        background-size: 1803.91px 2878px;
+        background-size: auto 5094px;
         background-repeat: no-repeat;
     }
 }
