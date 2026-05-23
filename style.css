@@ -34,6 +34,10 @@ html {
     scroll-margin-top: 100px; /* ヘッダーの高さ分くらいを数字で入れる */
 }
 
+body {
+    -webkit-text-size-adjust: 100%;
+}
+
 @media(max-width:760px) {
     .logo {
         /* background: red; */
