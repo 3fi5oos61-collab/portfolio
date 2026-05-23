@@ -73,28 +73,22 @@ html {
         /* background: indianred; */
         max-width: 54.44px;
         max-height: 203.36px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .concept p {
-        display: block;
+        /* display: block; */
         /* background:darkgrey; */
         font-size: 22px;
           font-weight: 800;
         writing-mode: vertical-rl;
         letter-spacing: 13px;
-
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .concept {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* align-items: center; */
-        position: relative;
+        align-items: center;
         padding: 320px 0 360px;
         gap: 35px;
     }
